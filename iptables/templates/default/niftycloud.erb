@@ -1,0 +1,4 @@
+# NIFTY Cloud
+-A FWR -m tcp -p tcp --sport 67:68 -j ACCEPT
+-A FWR -m udp -p udp --sport 67:68 -j ACCEPT
+-A FWR -m tcp -p tcp -s 210.172.0.32/29 -j ACCEPT
